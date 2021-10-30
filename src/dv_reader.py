@@ -20,19 +20,19 @@ class Data_Volley_Parser():
     __col_name = "data_volley_data"
 
     # structure of data volley files (max parsed)
-    __dv_datavolleyscout      = {"start_id":None , "end_id":None, "data":None}
-    __dv_match                = {"start_id":None , "end_id":None, "data":None}
-    __dv_teams                = {"start_id":None , "end_id":None, "data":None}
-    __dv_more                 = {"start_id":None , "end_id":None, "data":None}
-    __dv_comments             = {"start_id":None , "end_id":None, "data":None}
-    __dv_set                  = {"start_id":None , "end_id":None, "data":None}
-    __dv_players_h            = {"start_id":None , "end_id":None, "data":None}
-    __dv_players_v            = {"start_id":None , "end_id":None, "data":None}
-    __dv_attackcombination    = {"start_id":None , "end_id":None, "data":None}
-    __dv_settercall           = {"start_id":None , "end_id":None, "data":None}
-    __dv_winningsymbols       = {"start_id":None , "end_id":None, "data":None}
-    __dv_reserve              = {"start_id":None , "end_id":None, "data":None}
-    __dv_scout                = {"start_id":None , "end_id":None, "data":None}
+    __dv_datavolleyscout      = {"desc":"metainformations of datavolley scout" ,"start_id":None , "end_id":None, "data":None}
+    __dv_match                = {"desc":"match informations about the game","start_id":None , "end_id":None, "data":None}
+    __dv_teams                = {"desc":"metainformation about the team, names and coach","start_id":None , "end_id":None, "data":None}
+    __dv_more                 = {"desc":"metainformation place of competition, referees","start_id":None , "end_id":None, "data":None}
+    __dv_comments             = {"desc":"comment lines inside the application","start_id":None , "end_id":None, "data":None}
+    __dv_set                  = {"desc":"set informations of the game (set points: 8-*, 16-*, 21-*, 25-*)","start_id":None , "end_id":None, "data":None}
+    __dv_players_h            = {"desc":"metainformations about home team","start_id":None , "end_id":None, "data":None}
+    __dv_players_v            = {"desc":"metainformations about guest team","start_id":None , "end_id":None, "data":None}
+    __dv_attackcombination    = {"desc":"short codes and description for attack combinations","start_id":None , "end_id":None, "data":None}
+    __dv_settercall           = {"desc":"short codes and description for setter combinations","start_id":None , "end_id":None, "data":None}
+    __dv_winningsymbols       = {"desc":"application placeholder","start_id":None , "end_id":None, "data":None}
+    __dv_reserve              = {"desc":"unknown","start_id":None , "end_id":None, "data":None}
+    __dv_scout                = {"desc":"complete scout file with all scouted codecombinations","start_id":None , "end_id":None, "data":None}
 
     __dv_protocol = { "[3DATAVOLLEYSCOUT]"    : __dv_datavolleyscout, 
                     "[3MATCH]"              : __dv_match,
