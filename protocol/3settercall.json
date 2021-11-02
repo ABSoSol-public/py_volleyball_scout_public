@@ -1,0 +1,11 @@
+{
+    "0" : "sp_code",
+    "1" : "sp_unknown_1",
+    "2" : "sp_description",
+    "3" : "sp_unknown_3",
+    "4" : "sp_unknown_4", 
+    "5" : "sp_start_coordinate",
+    "6" : "sp_mid_coordinate",
+    "7" : "sp_end_coordinate",
+    "8" : "sp_path"
+}
